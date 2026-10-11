@@ -230,7 +230,7 @@ docker compose logs --tail=100 mongo-express
 When the application starts successfully, its logs should indicate that MongoDB connected and the web server is listening on port `5050`.
 
 ---
-Or you can just fetch this repo and run below command to run this app totally containerized.  
+Or you can just clone this repo and run below command to run this app totally containerized.  
 ```bash
 docker compose up -d
 ```
