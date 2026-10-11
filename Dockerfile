@@ -1,21 +1,14 @@
-FROM node
-
-
-ENV	MONGO_DB_USERNAME=admin \
-	MONGO_DB_PASSWORD=qwerty 
-
-
-RUN mkdir -p testapp
+FROM node:20
 
 WORKDIR /testapp
 
 COPY package*.json ./
+
 RUN npm install --omit=dev
 
-COPY . /testapp
+COPY . .
+
 EXPOSE 5050
 
-#RUN docker compose -f mongo.yaml -d
 CMD ["node", "/testapp/server.js"]
-	
 
