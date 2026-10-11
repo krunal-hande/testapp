@@ -157,7 +157,6 @@ A local Node.js installation is not required when building and running the appli
 
 ### Step 1: Clone the Repository
 
-Replace the placeholder below with your actual GitHub repository URL.
 
 ```bash
 git clone https://github.com/krunal-hande/testapp
