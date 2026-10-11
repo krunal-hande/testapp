@@ -160,13 +160,13 @@ A local Node.js installation is not required when building and running the appli
 Replace the placeholder below with your actual GitHub repository URL.
 
 ```bash
-git clone <your-github-repository-url>
+git clone https://github.com/krunal-hande/testapp
 ```
 
 Navigate to the cloned project directory:
 
 ```bash
-cd <your-project-directory>
+cd testapp
 ```
 
 ### Step 2: Review the Docker Compose Configuration
